@@ -1,0 +1,17 @@
+.ButtonIconSeta { 
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.ButtonIconSeta:hover { 
+    background: #808080;
+    transform: scale(1.1);
+}
+
+.iconSeta {
+    padding-top: 3px;
+    outline: none;
+    border: none;
+}
+

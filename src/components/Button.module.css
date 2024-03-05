@@ -1,0 +1,27 @@
+.Button {
+    display: flex;
+    padding: 0.90rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    background: var(--Blue-Dark, #1E6F9F);
+    border: none;
+
+    position: absolute;
+    margin-left: 44rem;
+    top: 7.55rem;
+
+    cursor: pointer;
+
+    transition: 200ms;
+}
+
+
+.Button:hover {
+    background: var(--Blue-Dark, #4EA8DE);
+    /* padding: 0.99rem; */
+    transform: scale(1.1);
+    transition: 200ms;
+}

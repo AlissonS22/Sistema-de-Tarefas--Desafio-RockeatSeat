@@ -1,0 +1,42 @@
+#root {
+  text-align: center;
+}
+
+.Input {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.content{
+  max-width: 55rem;
+  height: 75vh;
+  margin: 0 auto;
+}
+
+.InputAndButon {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 0.5rem;  
+}
+
+.divItem {
+  
+  margin-top: 1rem;
+  width: 43.30rem;
+  margin-left: 5.90rem;
+}
+
+.divButtonOrganiList {
+  margin-left: 2rem;
+  margin-top: 2.85rem;
+  width: 3rem;
+  position: absolute;
+  /* display: flex; */
+}
+
+.spaceForResults {
+  height: 1rem;
+}

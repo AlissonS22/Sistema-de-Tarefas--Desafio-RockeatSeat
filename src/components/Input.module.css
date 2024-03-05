@@ -1,0 +1,22 @@
+.Input {
+   
+    /* position: absolute; */
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    background: var(--Gray-500, #262626);
+    color: var(--gray-100);
+    
+    margin-top: -1.50rem;
+
+    height: 1rem;
+    padding: 1rem;
+    width: 35rem;
+    margin-left: 6rem;
+  }
+
+  .Input:focus {
+    /* border: 1px solid var(--PurpleDark, #5E60CE); */
+    outline: 2px solid var(--PurpleDark, #5E60CE);
+ 
+  }
+ 
